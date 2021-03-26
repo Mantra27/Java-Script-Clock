@@ -1,0 +1,54 @@
+#container{
+    position: relative;
+    border: 2px solid red;
+    background-color: blueviolet;
+    height: 40vw;
+    width: 40vw;
+    background: url(image.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+#hour_hand, #minute_hand, #second_hand{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    
+}
+#circle{
+    
+    position: absolute;
+    width: 5.5%;
+    height: 5.5%;
+    top: 47.2%;
+    right: 47.3%;
+    background: black;
+    border-radius: 100%;
+
+}
+#hour_hand{
+
+    width: 3.5%;
+    height: 24%;
+    top: 27%;
+    right: 47%;
+   
+}
+
+#minute_hand{
+
+    width: 1.5%;
+    height: 32%;
+    top: 18%;
+    right: 49.5%;
+    
+}
+
+#second_hand{
+
+    width: 0.5%;
+    height: 33%;
+    top: 17%;
+    right: 50%;
+    
+}
